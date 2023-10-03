@@ -1,0 +1,11 @@
+.welcome__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  text-align: center;
+}
+
+button.welcome__button {
+  display: inline-block;
+}

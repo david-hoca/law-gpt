@@ -1,0 +1,69 @@
+.auth__wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.auth__inner {
+  width: 100%;
+  max-width: 350px;
+  padding: 50px;
+
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.auth__form {
+  display: block;
+}
+
+// TEXTFIELD MUI
+.myTextField {
+  width: 100%;
+  margin-top: 15px !important;
+  // margin-bottom: 15px !important;
+  & .MuiOutlinedInput-root {
+    & fieldset {
+      border-color: #202123;
+    }
+
+    &:hover fieldset {
+      border-color: #202123;
+    }
+
+    &:focus-within fieldset {
+      border-color: #202123;
+    }
+  }
+
+  & .MuiInputLabel-root {
+    color: #202123;
+  }
+
+  &:focus-within .MuiInputLabel-root {
+    color: #202123;
+  }
+}
+
+.auth__button {
+  width: 100%;
+}
+
+button.myButton {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+
+  background-color: #202123;
+  color: #fff;
+
+  &:hover {
+    background-color: #323438;
+    color: #fff;
+  }
+}
+
+.auth__haveAccount {
+  text-align: center;
+}
