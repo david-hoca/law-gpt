@@ -1,46 +1,15 @@
-::-webkit-scrollbar {
-  width: 5px;
-  /* background-color: #7e8681; */
-}
-
-::-webkit-scrollbar-thumb {
-  background: #008b51;
-  border-radius: 4px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/**
- * SCSS class for a container element.
- *
- * This class sets the width to 100% and the maximum width to 1350px.
- * It also adds padding of 0 20px and centers the container horizontally using auto margins.
- *
- * Example usage:
- * ```
- * .container {
- *   width: 100% !important;
- *   max-width: 1350px !important;
- *   padding: 0 20px !important;
- *   margin: 0 auto !important;
- * }
- * ```
- */
-.container {
-  width: 100% !important;
-  max-width: 1350px !important;
-  padding: 0 20px !important;
-  margin: 0 auto !important;
-}
-
-@media only screen and (max-width: 960px) {
-  .container {
-    max-width: 1140px;
-  }
+  font-family: sans-serif;
+  background-color: #202123;
 }
 
 ul {
@@ -54,14 +23,4 @@ ul {
 
 a {
   text-decoration: none !important;
-}
-
-//******************//
-//***   MOBILE   ***//
-//******************//
-
-@media only screen and (max-width: 576px) {
-  .container {
-    padding: 0 16px !important;
-  }
 }

@@ -13,7 +13,7 @@ export default defineConfig({
       "@images": resolve("src", "shared", "assets", "images"),
       "@api": resolve("src", "api"),
       // "@types": resolve("src", "types"),
-      // "@app": resolve("src", "app"),
+      "@app": resolve("src", "app"),
     },
   },
 });

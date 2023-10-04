@@ -11,10 +11,9 @@ export const loginUser = async (userData) => {
     }
   );
 
-  console.log(response);
-  if (response.status !== 201) {
-    throw new Error("Network response was not ok");
+  if (response.status === 200) {
+    return response.data;
+  } else {
+    throw new Error("Unexpected response status: " + response.status);
   }
-
-  return response.data;
 };

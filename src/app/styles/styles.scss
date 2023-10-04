@@ -7,22 +7,3 @@
 // BASE STYLES
 @import "./base/style.scss";
 @import "./components/style.scss";
-
-body {
-  font-family: "Bosca", monospace;
-  margin: 0;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-  color: #000;
-}

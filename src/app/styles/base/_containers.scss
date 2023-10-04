@@ -1,5 +1,5 @@
 .container {
-  max-width: 1290px;
+  max-width: 1520px;
   margin: 0 auto;
   padding: 0 21px;
 }
@@ -7,7 +7,7 @@
 @media screen and (max-width: 1400px) {
   .container {
     max-width: 100%;
-    width: 1200px;
+    width: 1300px;
   }
 }
 
@@ -56,3 +56,13 @@
     width: 400px;
   }
 }
+
+//******************//
+//***   MOBILE   ***//
+//******************//
+
+// @media only screen and (max-width: 576px) {
+//   .container {
+//     padding: 0 16px !important;
+//   }
+// }
